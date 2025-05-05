@@ -11,7 +11,7 @@ int main() {
     printf("Enter second number: ");
     scanf("%lf", &num2);
 
-    switch (operator) {
+    switch(operator){
         case '+':
             printf("Result: %.2f\n", num1 + num2);
             break;
@@ -30,6 +30,5 @@ int main() {
         default:
             printf("Invalid operator.\n");
     }
-
     return 0;
 }
